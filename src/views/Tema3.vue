@@ -17,7 +17,7 @@
     p.mb-5 En marroquinería, los artículos como bolsos, carteras, cinturones y mochilas requieren materiales que no solo sean visualmente atractivos, sino que resistan el uso constante, mantengan su forma y conserven su acabado con el paso del tiempo. Los materiales pueden clasificarse según:
 
     .row.mb-5.justify-content-center.align-items-center
-      .col-lg-1.mb-3.mb-lg-0
+      .col-md-3.col-lg-1.mb-3.mb-lg-0
         figure
           img(src="@/assets/curso/tema3/1.png", data-aos="zoom-in")
       .col-lg-7
@@ -44,32 +44,32 @@
     
     p.mb-5 El cuero es un material natural obtenido de la piel de animales como bovinos, ovinos, caprinos y porcinos. Su tratamiento mediante un proceso de curtido impide la descomposición y mejora sus propiedades físicas como la resistencia, flexibilidad y durabilidad. Gracias a su transpirabilidad y adaptabilidad, es ampliamente usado en calzado, vestimenta, tapicería y especialmente en marroquinería. Una de las clasificaciones principales del cuero se basa en el tipo de curtido:
 
-    TabsC.color-acento-contenido
+    TabsC.color-acento-contenido.mb-5
       .py-3.py-md-4(titulo="Cuero al cromo")
         .row.p-4.align-items-center
-          .col-md-6.mb-4.mb-md-0.order-lg-2
+          .col-lg-6.mb-4.mb-lg-0.order-lg-2
             h4 Cuero al cromo
             p Flexible, resistente, con color uniforme. Se utiliza en marroquinería, calzado, tapicería y vestimenta.
         
-          .col-md-6.order-lg-1
+          .col-lg-6.order-lg-1
             figure
               img(src='@/assets/curso/tema3/2.png', alt='Texto que describa la imagen')
-      .py-3.py-md-4(titulo="Cuero al cromo")
+      .py-3.py-lg-4(titulo="Cuero al cromo")
         .row.p-4.align-items-center
-          .col-md-6.mb-4.mb-md-0.order-lg-2
+          .col-lg-6.mb-4.mb-lg-0.order-lg-2
             h4 Cuero vegetal
             p Más rígido, biodegradable y con tonos naturales. Se emplea principalmente en artesanía y marroquinería.
         
-          .col-md-6.order-lg-1
+          .col-lg-6.order-lg-1
             figure
               img(src='@/assets/curso/tema3/3.png', alt='Texto que describa la imagen')
-      .py-3.py-md-4(titulo="Cuero al cromo")
+      .py-3.py-lg-4(titulo="Cuero al cromo")
         .row.p-4.align-items-center
-          .col-md-6.mb-4.mb-md-0.order-lg-2
+          .col-lg-6.mb-4.mb-lg-0.order-lg-2
             h4 Cuero mixto
             p Combina curtido al cromo y vegetal, logrando un equilibrio entre resistencia y sostenibilidad. Se destina a calzado y marroquinería de calidad media-alta.
         
-          .col-md-6.order-lg-1
+          .col-lg-6.order-lg-1
             figure
               img(src='@/assets/curso/tema3/4.png', alt='Texto que describa la imagen')
   

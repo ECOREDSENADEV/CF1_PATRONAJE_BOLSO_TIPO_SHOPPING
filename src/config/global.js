@@ -68,9 +68,9 @@ export default {
             hash: 't_3_2',
           },
           {
-            numero: '3.2',
+            numero: '3.3',
             titulo: 'Textiles',
-            hash: 't_3_2',
+            hash: 't_3_3',
           },
         ],
       },
@@ -189,21 +189,69 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: 'Sitio web',
-      link: '',
+      tema: 'Tipologías de bolsos: características y usos',
+      referencia:
+        'Paul Imagen (2009). Tipos de bolsas para mujeres. [Vídeo]. Youtube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=fgoDA49Mgm4   ',
+    },
+    {
+      tema: 'Materiales e insumos para Marroquinería',
+      referencia:
+        'Ecosistema de Recursos Educativos Digitales SENA (2020, 17 septiembre). Maquinaria marroquinería [Vídeo]. Youtube.  ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=9SsLJIbLc8w ',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Patronaje',
+      significado:
+        'es el proceso de diseño y creación de patrones que sirven como base para cortar las piezas de un bolso. A través del patronaje, se definen las formas y dimensiones de los componentes que conformarán el producto.',
+    },
+    {
+      termino: 'Cuero',
+      significado:
+        'material natural obtenido de la piel de animales, principalmente vacuno, que se somete a un proceso de curtido para hacerlo resistente y flexible. Se utiliza en la fabricación de marroquinería por su durabilidad, confort y capacidad de adaptarse a la forma del pie.',
+    },
+    {
+      termino: 'Sintético',
+      significado:
+        'material artificial fabricado a partir de polímeros como el PVC o el poliuretano, diseñado para imitar características del cuero o de otros materiales naturales. Se usa en marroquinería por su costo accesible, variedad de diseños y facilidad de mantenimiento.',
+    },
+    {
+      termino: 'Textil',
+      significado:
+        'material compuesto por fibras naturales (algodón, lino, lana) o sintéticas (poliéster, nylon) que se utiliza en la fabricación de marroquinería, especialmente en modelos deportivos y casuales, debido a su ligereza y transpirabilidad.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia: 'Asensio, O. (2011). El gran libro del cuero. Lexus.',
+      link: '',
+    },
+    {
+      referencia:
+        'Ministerio de Comercio, Industria y Turismo. Artesanías de Colombia. (2020). Técnica del oficio del cuero. Artesanías de Colombia.  ',
+      link: 'https://repositorio.artesaniasdecolombia.com.co/handle/001/6336. ',
+    },
+    {
+      referencia: 'Fogg, M. (2009). Bolsos Vintage. Parramón.',
+      link: '',
+    },
+    {
+      referencia:
+        'Johnson, A. (2005). Bolsos el poder de un accesorio. Konemann.',
+      link: '',
+    },
+    {
+      referencia:
+        'Marulanda, G. (2007). Cartilla de marroquinería modelaje de bolsos. Imprenta Nacional. ',
+      link: '',
+    },
+    {
+      referencia:
+        'Moreno, E. (2015). Control de calidad en materias primas e insumos para el sector calzado y marroquinería. SENA CENIGRAF.',
       link: '',
     },
   ],

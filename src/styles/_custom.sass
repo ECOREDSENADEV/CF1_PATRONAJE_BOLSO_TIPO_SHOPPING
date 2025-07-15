@@ -4,16 +4,19 @@
     position: absolute
     top: 17%
     right: 71%
+    z-index: 11
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
     top: 28%
-    right: -4%
+    right: 2%
+    z-index: 11
   &-3
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
     top: 67%
-    right: 0%
+    right: 3%
+    z-index: 11
   &-4
     animation: float2 2.8s ease-in-out infinite alternate
     position: absolute
@@ -161,6 +164,10 @@ figcaption
       border-top: 10px solid transparent
       border-bottom: 10px solid transparent
       border-left: 10px solid #A82250
+@media (max-width: 768px) 
+  .pst-1::before 
+    display: none
+  
 //////////////CUSTON SLYDER////////
 .slyder-a__bullets__item 
   background-color: #C1C094

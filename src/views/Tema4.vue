@@ -59,38 +59,38 @@
     TabsC.color-acento-contenido.mb-5
       .py-3.py-md-4(titulo="Cuero al cromo")
         .row.p-4.align-items-center
-          .col-md-6.mb-4.mb-md-0.order-lg-2
+          .col-lg-6.mb-4.mb-lg-0.order-lg-2
             h4 Cuero natural
             p Flexible, resistente, transpirable. Ideal para productos duraderos y de alta calidad. 
         
-          .col-md-6.order-lg-1
+          .col-lg-6.order-lg-1
             figure
               img(src='@/assets/curso/tema4/6.png', alt='Texto que describa la imagen')
-      .py-3.py-md-4(titulo="Cuero al cromo")
+      .py-3.py-lg-4(titulo="Cuero al cromo")
         .row.p-4.align-items-center
-          .col-md-6.mb-4.mb-md-0.order-lg-2
+          .col-lg-6.mb-4.mb-lg-0.order-lg-2
             h4 Materiales sintéticos (PU, PVC)
             p Alternativas económicas y ecológicas. Resisten la humedad y permiten variedad estética. 
         
-          .col-md-6.order-lg-1
+          .col-lg-6.order-lg-1
             figure
               img(src='@/assets/curso/tema4/7.png', alt='Texto que describa la imagen')
-      .py-3.py-md-4(titulo="Cuero al cromo")
+      .py-3.py-lg-4(titulo="Cuero al cromo")
         .row.p-4.align-items-center
-          .col-md-6.mb-4.mb-md-0.order-lg-2
+          .col-lg-6.mb-4.mb-lg-0.order-lg-2
             h4 Textiles (lona, microfibra)
             p Ligeros, duraderos, de secado rápido. Aptos para interiores y componentes decorativos. 
         
-          .col-md-6.order-lg-1
+          .col-lg-6.order-lg-1
             figure
               img(src='@/assets/curso/tema4/8.png', alt='Texto que describa la imagen')
-      .py-3.py-md-4(titulo="Cuero al cromo")
+      .py-3.py-lg-4(titulo="Cuero al cromo")
         .row.p-4.align-items-center
-          .col-md-6.mb-4.mb-md-0.order-lg-2
+          .col-lg-6.mb-4.mb-lg-0.order-lg-2
             h4 Salpas, espumas, EVAS
             p Materiales de refuerzo que aportan estructura y comodidad. 
         
-          .col-md-6.order-lg-1
+          .col-lg-6.order-lg-1
             figure
               img(src='@/assets/curso/tema4/9.png', alt='Texto que describa la imagen')
 
