@@ -11,7 +11,7 @@
 
     separador
 
-    #t_5_1.titulo-segundo.color-secundario(data-aos="flip-up")
+    #t_5_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 5.1 Características de la ficha técnica de diseño
     
     p.mb-5 A continuación se presentan los principales elementos que debe contener una ficha técnica de productos marroquineros:
@@ -71,7 +71,7 @@
     
     separador
 
-    #t_5_2.titulo-segundo.color-secundario(data-aos="flip-up")
+    #t_5_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 5.2 Usos de la ficha técnica en marroquinería
 
     .bg-full-width.bg-color-5

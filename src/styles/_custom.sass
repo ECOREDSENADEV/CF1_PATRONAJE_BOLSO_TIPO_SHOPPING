@@ -74,6 +74,16 @@ figcaption
     background-color: #D4E6C6
   &-8
     background-color: #B7B7B6
+  &-9
+    background-color: #F8DE53
+  &-10
+    background-color: #EAF2E3
+  &-11
+    color: #5A7445 !important
+  &-12
+    background-color: #DBDBDA
+  &-13
+    background-color: #FDF8DD
   &-info
     background-color: #E8EEFD
   &-sintesis
@@ -91,13 +101,22 @@ figcaption
   @media screen and (max-width: $bp-max-sm)
     padding-left: 1.5rem
     padding-right: 1.5rem
+// Full Width Background
+.bg-full-width-2
+  background-size: contain
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.3rem
+  @media screen and (max-width: $bp-max-sm)
+    padding-left: 1.5rem
+    padding-right: 1.5rem
 
 .bg-fondo
   &-1
     background-image: url("../assets/curso/bg1.png") !important
     background-position: top
-  //&-2
-    // background-image: url("../assets/bg/bg2.png") !important
+  &-2
+    background-image: url("../assets/curso/bg2.svg") !important
     background-position: bottom
   //&-slider
     background-image: url("../assets/bg/bg-slider.svg") !important
@@ -126,7 +145,22 @@ figcaption
 
 .lista-ul--color li > i:first-of-type
   top: 10px
-
+.pst
+  .lista-ul--color li > i:first-of-type
+    top: 5px
+  &-1
+    position: relative
+    &::before
+      content: ''
+      position: absolute
+      top: 50%
+      right: -10px 
+      transform: translateY(-50%)
+      width: 0
+      height: 0
+      border-top: 10px solid transparent
+      border-bottom: 10px solid transparent
+      border-left: 10px solid #A82250
 //////////////CUSTON SLYDER////////
 .slyder-a__bullets__item 
   background-color: #C1C094
@@ -158,8 +192,9 @@ figcaption
 /////////////ACORDION/////////////
 .acordion__accion__btn--a
   background-color: #A82250 !important
+  color: white
 .acordion__activo
-  background-color: #FDF8DD!important
+  background-color: #D4E6C6!important
 .acordion_titulo
   color: #fff !important
 .acordion__titulo 
@@ -170,7 +205,22 @@ figcaption
     h3
       color: $color-sistema-texto !important
 
+///////////////CUSTOM PESTAÑAS/////////////
+.tabs-c__header
+  margin-bottom: 0
+.tabs-c__content-item
+  background-color: #EDEDED
+  border: 1px solid #4C4B48
 
 .tarjeta-avatar-b .tarjeta
   padding-left: 5%
   margin-left: -16%
+
+//////////////CUSTOM TABS-A/////////////
+.tabs-a__tab
+  background-color: #DBDBDA
+.tarjeta.color-acento-botones--borde
+  background-color: #D4E6C6
+  border: solid 4px #D4E6C6
+
+
