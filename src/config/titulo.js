@@ -1,1 +1,2 @@
-module.exports = 'Ecored Base PKG'
+module.exports =
+  'Materiales, diseño y procesos productivos en la fabricación de bolsos'

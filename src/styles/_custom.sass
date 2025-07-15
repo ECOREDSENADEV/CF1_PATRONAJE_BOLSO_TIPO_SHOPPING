@@ -2,19 +2,35 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 17%
+    right: 71%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 28%
+    right: -4%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 67%
+    right: 0%
+  &-4
+    animation: float2 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 46%
+    right: 0%
+    z-index: 0
 
 @keyframes float1
   0%
     transform: translateY(20px)
   100%
     transform: translateY(0px)
+@keyframes float2
+  0%
+    transform: translateX(20px)
+  100%
+    transform: translateX(0px)
   
 .banner-principal .tarjeta
   background-position: left 50% !important
@@ -28,5 +44,133 @@
 .banner-interno__titulo__icono i
   color: $color-primario
 
+.banner-principal__row .banner-principal__img img 
+  position: relative
+  z-index: 10
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/banner_interno.png") !important
+
+.titulo-principal.color-acento-contenido .titulo-principal__numero span
+  color: $color-sistema-texto !important
+
 figcaption
   font-weight: normal
+
+.bg-color
+  &-1
+    background-color: #FCF1BA !important
+  &-2
+    background-color: #FDE8D0 !important
+  &-3
+    background-color: #FFFFD0cc
+  &-4
+    color: #12263F !important
+  &-5
+    background: linear-gradient(0deg,rgba(255, 255, 255, 1) 0%, rgba(234, 242, 227, 1) 20%, rgba(234, 242, 227, 1) 80%, rgba(255, 255, 255, 1) 100%)
+  &-6
+    background-color: #A82250 !important
+  &-7
+    background-color: #D4E6C6
+  &-8
+    background-color: #B7B7B6
+  &-info
+    background-color: #E8EEFD
+  &-sintesis
+    background-color: #F6F6F6
+  &-white
+    background-color: #fff
+
+
+// Full Width Background
+.bg-full-width
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.3rem
+  @media screen and (max-width: $bp-max-sm)
+    padding-left: 1.5rem
+    padding-right: 1.5rem
+
+.bg-fondo
+  &-1
+    background-image: url("../assets/curso/bg1.png") !important
+    background-position: top
+  //&-2
+    // background-image: url("../assets/bg/bg2.png") !important
+    background-position: bottom
+  //&-slider
+    background-image: url("../assets/bg/bg-slider.svg") !important
+    background-position: bottom
+  
+///////////// CUSTOM LINEA DE TIEMPO D
+.linea-tiempo-d__item.row.linea-tiempo-d__item--selected
+  .col-auto.linea-tiempo-d__item__col-number
+    .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+      background-color: #F8DE53!important
+      color: $color-sistema-texto
+  .col
+    .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+      background-color: #FCF1BA
+
+/// non selected
+.linea-tiempo-d__item.row
+  .col-auto.linea-tiempo-d__item__col-number
+    .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+      background-color: #DBDBDA
+    .linea-tiempo-d__item__dots:after
+      border-left: 4px dotted #adb8c2 !important
+  .col
+    .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+      background-color: #DBDBDA
+
+.lista-ul--color li > i:first-of-type
+  top: 10px
+
+//////////////CUSTON SLYDER////////
+.slyder-a__bullets__item 
+  background-color: #C1C094
+  border: #C1C094
+.slyder-a__bullets__item--active
+  background-color: #4C4B48
+.slyder-a__btn--atrs, .slyder-a__btn--sigt
+  background-color: #A82250
+
+//CLASES TITULOS//
+.titulo-con-imagen
+  display: flex
+  align-items: center
+  position: relative
+.titulo-con-imagen__fondo
+  background-color: #FD9826
+  border-radius: 10px
+  padding: 10px 20px
+  display: inline-flex
+  align-items: center
+.titulo-con-imagen__imagen
+  position: absolute
+  left: -30px
+  width: 50px
+.titulo-con-imagen__texto
+  margin: 0
+  padding-left: 20px
+
+/////////////ACORDION/////////////
+.acordion__accion__btn--a
+  background-color: #A82250 !important
+.acordion__activo
+  background-color: #FDF8DD!important
+.acordion_titulo
+  color: #fff !important
+.acordion__titulo 
+  h3
+    color: $color-sistema-texto  !important
+.acordion__activo
+  .acordion__titulo 
+    h3
+      color: $color-sistema-texto !important
+
+
+.tarjeta-avatar-b .tarjeta
+  padding-left: 5%
+  margin-left: -16%
