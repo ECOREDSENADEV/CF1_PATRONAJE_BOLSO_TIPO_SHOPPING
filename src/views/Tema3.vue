@@ -17,7 +17,7 @@
     p.mb-5 En marroquinería, los artículos como bolsos, carteras, cinturones y mochilas requieren materiales que no solo sean visualmente atractivos, sino que resistan el uso constante, mantengan su forma y conserven su acabado con el paso del tiempo. Los materiales pueden clasificarse según:
 
     .row.mb-5.justify-content-center.align-items-center
-      .col-md-3.col-lg-1.mb-3.mb-lg-0
+      .col-4.col-md-3.col-lg-1.mb-3.mb-lg-0
         figure
           img(src="@/assets/curso/tema3/1.png", data-aos="zoom-in")
       .col-lg-7

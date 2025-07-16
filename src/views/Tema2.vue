@@ -218,7 +218,7 @@
 
     .bg-full-width.bg-fondo-1.mb-5
       .p-4.p-md-5
-        SlyderA(tipo="b").bg-color-3.tarjeta.p-4
+        SlyderA(tipo="b").bg-color-3.tarjeta.p-4.pst-2
           .row.align-items-center.p-4.p-md-5
             .col-lg-3.order-2
               figure
